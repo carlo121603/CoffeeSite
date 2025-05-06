@@ -77,6 +77,9 @@
 }
 
 @media (min-width: 769px) and (max-width: 1024px) {
+  .HeroImage{
+    height: 70vh;
+  }
    .Featured {
     margin: 10px 0 30px 0; 
     height: auto; 
@@ -127,7 +130,9 @@
 }
 
 @media (max-width: 1200px){
-
+  .HeroImage{
+    height: 70vh;
+  }
   .lowerRight{
     display: flex;
     flex-direction: column;
