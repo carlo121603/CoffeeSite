@@ -1,6 +1,7 @@
 @media (min-width: 600px){
   .HeroImage{
     width: 100%;
+    height: auto;
   }
 }
 
