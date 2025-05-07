@@ -101,7 +101,7 @@ header {
   color: #8b6513;
 }
 
-.NavContainer li a::after {
+/* .NavContainer li a::after {
   content: '';
   position: absolute;
   width: 0;
@@ -113,8 +113,8 @@ header {
 }
 
 .NavContainer li a:hover::after {
-  width: 30%;
-}
+  width: 100%;
+} */
 
 .overlay {
   display: none;
