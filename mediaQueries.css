@@ -14,6 +14,9 @@
 
 
 @media (max-width: 768px) {
+   .hamburger-container {
+    display: block;
+  }
 
   .nav-section {
     position: fixed;
@@ -130,13 +133,13 @@
     padding: 10px;
     white-space: normal;
     display: flex;
-    flex-direction: column; 
-    align-items: center;    
-    justify-content: center;
-    text-align: center;      
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;     /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    text-align: center;      /* Center text */
     padding: 20px;
     box-sizing: border-box;
-    height: 100%;           
+    height: 100%;            /* Ensure it fills the grid cell */
   }
   small{
     height: auto;
