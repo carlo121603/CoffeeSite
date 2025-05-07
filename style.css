@@ -7,14 +7,12 @@ html {
 
 * {
   box-sizing: border-box;
-  overflow-x: hidden !important;
 }
 
 body {
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
-  overflow-x: hidden !important;
 }
 
 /* Header & Navigation */
